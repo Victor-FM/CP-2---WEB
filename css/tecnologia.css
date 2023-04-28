@@ -1,12 +1,14 @@
 .conteudo img {
-    max-width: 100%;
+    max-width: 90%;
+    height: 200px;
     display: block;
+    text-align: center;
 }
 
 .conteudo {
     display: flex;
     flex-wrap: wrap;
-    max-width: 60vw;
+    max-width: 80vw;
     margin: 0 auto;
 }
 
@@ -20,14 +22,35 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-  } 
+} 
   
-  html{
-      font-size: 62.8%;
-  }
+html{
+    font-size: 85%;
+}
   
-  .tit-sec{
-      text-align: center;
-      margin: 2vh 0;
-      font-size: 3rem;
-  }
+.tit-sec{
+    text-align: center;
+    margin: 2vh 0;
+    font-size: 3rem;
+}
+
+.conteudo p{
+    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 160%;
+}
+
+h1{
+    margin: 50px 0 80px 0;
+    text-align: center;
+    background-color: aqua;
+}
+
+.titulo{
+    background-color: azure;
+}
+
+.legenda{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

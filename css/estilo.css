@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(223, 105, 105);
+    border: 1px solid red;
+    
+}
+
+.links-menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 25px 25px;
+    
+
+}
+
+.img-logo {
+    width: 140px;
+    
+}
+
+ .links-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+
+a:hover {
+    text-decoration: overline  black;
+    transition: ease all 1.5s;
+}
+
+#rodape {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(223, 105, 105);
+   
+}
+
+.links-rodape {
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
+    flex-basis: 100%;
+    gap: 25px 25px;
+    padding: 25px 8px;
+    
+    
+}

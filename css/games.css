@@ -1,52 +1,65 @@
+@media(max-width: 687px) {
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+        float: center;
+        
+    } 
+
+.conteudo img {
+    max-width: 90%;
+    height: 200px;
+    display: block;
+    text-align: center;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.conteudo>div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+}
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-  } 
+} 
   
-  html{
-      font-size: 62.8%;
-  }
-  
-  /*.tit-sec{
-      text-align: center;
-      margin: 2vh 0;
-      font-size: 3rem;
-  }
-  
-  .cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: #000000;
+html{
+    font-size: 85%;
 }
-
-.cabecalho nav {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 60vw;
-    height: 42vh;
-}*/
-
-.cabecalho img {
-    width: 30%;
-    max-width: 30%;
-    display: block;
-}
-/*
-.cabecalho a {
-    text-decoration: none;
-    font-size: 4rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    color: #fff;
-    padding: 18.5vh 0;
+  
+.tit-sec{
     text-align: center;
+    margin: 2vh 0;
+    font-size: 3rem;
 }
 
-.cabecalho a:hover {
-    background-color: #fff;
-    color: #000000;
-}*/
+.conteudo p{
+    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 160%;
+}
+
+h1{
+    margin: 50px 0 80px 0;
+    text-align: center;
+    background-color: aqua;
+}
+
+.titulo{
+    background-color: azure;
+}
+
+.legenda{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+}

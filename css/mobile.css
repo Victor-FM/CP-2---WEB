@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  } 
+  html{
+       font-size: 100%;
+       flex-wrap: wrap;
+  }
+  
+
+  .titulo{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .legenda{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+
+.conteudo img{
+    min-width: 30vw;
+    max-width: 30vw;
+    max-height: 35vh;
+    min-height: 35vh;
+    display: block;
+    text-align: center;
+}
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60vw;
+    margin: 0 auto;
+}
+.conteudo>div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+}
+
+.conteudo p{
+    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 160%;
+  }
+
+
+
+  @media (max-width: 1460px){
+    h1{
+        background-color: red;
+        margin: 50px 0 80px 0;
+        text-align: center;
+    }
+  }
+  @media (min-width: 1461px){
+    h1{
+      margin: 50px 0 80px 0;
+      text-align: center;
+      background-color: aqua;
+  }
+  }
+  
+  @media (max-width: 1460px){
+    .conteudo img{
+        align-items: column;
+        min-width: 58vw;
+        max-width: 58vw;
+        max-height: 60vh;
+    }
+}

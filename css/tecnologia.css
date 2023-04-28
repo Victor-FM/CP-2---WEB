@@ -1,32 +1,11 @@
-.conteudo img {
-    max-width: 90%;
-    height: 200px;
-    display: block;
-    text-align: center;
-}
-
-.conteudo {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 80vw;
-    margin: 0 auto;
-}
-
-.conteudo>div {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 300px;
-}
+@import url('./estilo.css');
 
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 } 
-  
-html{
-    font-size: 85%;
-}
+
   
 .tit-sec{
     text-align: center;
@@ -54,3 +33,25 @@ h1{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
+.conteudo img {
+    max-width: 90%;
+    height: 200px;
+    display: block;
+    text-align: center;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.conteudo>div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+}
+
